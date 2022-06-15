@@ -9,3 +9,21 @@ After using these guides enough times, the person should be able to develop his/
 For the time being, only Javascript tasks are available.
 
 You are welcome to contribute by suggesting what should be improved and be adding new tasks.
+
+
+/**
+ * Given the following directory structure:
+ *
+ *   dist/
+ *     index.html
+ *     js/
+ *       site.js
+ *
+ * The usage below will create a `gh-pages` branch that looks like this:
+ *
+ *   index.html
+ *   js/
+ *     site.js
+ *
+ */
+ghpages.publish('dist', callback);
